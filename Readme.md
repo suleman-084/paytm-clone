@@ -23,4 +23,4 @@
 
 - Learned to make website responsive with Tailwind CSS custom screen size property.
 
-## [Live-link](https://paytm-clone-using-tailwindcss.netlify.app/) of the project
+## [Live-link](https://paytmclone-01.netlify.app/) of the project
