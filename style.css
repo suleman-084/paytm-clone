@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            screens: {
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
+            extend: {
+              colors: {
+                skyblue: '#00baf2',
+                darkblue: '#0f4a89',
+                bggray: '#f4f7fa',
+                bglightblue: '#f0fbff',
+              }
+            }
+          }
+        }
+      </script>
+    <title>Paytm-clone</title>
+</head>
+<body class="bg-bggray m-0 p-0">
+
+    <div class="nav bg-[#fff] flex flex-row justify-between" >
+      <div class="menu flex">
+        <ion-icon class=" block md:hidden text-3xl mt-9 ml-4"  name="menu-outline"></ion-icon>
+        <img class="h-10 md:h-14 mt-7 ml-4 mb-6 md:ml-20" src="./images/paytm_logo.png" alt="paytmlogo">
+      </div>
+        <ul class="hidden md:block mt-10">
+            <a class="text-[19px] mr-8 font-semibold " href="#">Paytm for Consumer</a>
+            <a class="text-[19px] mr-8 font-semibold " href="#">Paytm for Business</a>
+            <a class="text-[19px] mr-8 font-semibold " href="#">Company</a>
+            <a class="text-[19px] mr-8 font-semibold " href="#">Investor Relations</a>
+            <a class="text-[19px] mr-8 font-semibold " href="#">Career</a>
+        </ul>
+        <div class="sign bg-[#00BAF2] flex h-fit mr-4 mt-9 rounded-full pl-5 hover:bg-[#002970] md:mr-20 ">
+            <a class="mt-[8px] mr-2 font-bold text-[#fff] text-[14px] md:text-[17px] md:mt-[12px] " href="#">Sign In</a>
+            <img class="h-8 md:h-11 mt-1 mr-1 mb-1 " src="./images/profile-icon.svg" alt="sign in">
+        </div>
+    </div>
+    <div class="line flex text-[17px] mt-[20px] mb-[20px] font-medium justify-center text-center">
+        <p>No Wallet KYC Required 😊 to pay using UPI on Paytm. Learn more.</p>
+    </div>
+    <div class="main2 md:flex md:mt-40 md:pb-[5rem] md:justify-between md:mb-100 flex-col-reverse ">
+      <div class="content md:ml-[150px]">
+        <img class=" md:h-[80px]" src="./images/paytm-se-upi-img.png" alt="upi">
+        <h1 class="md:mt-12 md:text-[60px] md:font-bold md:leading-[3.5rem]">India's Most-loved <br> Payments App</h1>
+        <h3 class="md:text-[20px] md:mt-[20px] md:font-[30px]">Recharge & pay bills, book flights & movie tickets, <br> open a savings account, invest in stocks &  mutual <br> funds, and do a lot more.</h3>
+        <div class="button md:flex md:mt-[28px] md:rounded-3xl md:w-fit md:pt-3 md:pr-10 md:pb-3 md:pl-10 md:bg-black md:text-white md:hover:bg-[#fff] md:border border-[#000] md:hover:text-black">
+          <p>Download Paytm App  
+          </p>
+          <ion-icon class="md:text-[22px] md:ml-[10px] md:mt-[4px] " name="logo-apple"></ion-icon>
+          <ion-icon class="md:text-[20px] md:ml-[10px] md:mt-[5px]" name="logo-google-playstore"></ion-icon>
+        </div>
+      </div>
+      <img class="md:h-[500px] " src="./images/hero-img.webp" alt="hero">
+    </div>
+    
+</body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>
